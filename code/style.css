@@ -47,15 +47,26 @@ img{
 
 .chambre{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     margin: 10px;
+    background-color: #F2F2F2;
+}
+
+.chambrepop{
+    background-color: #F2F2F2;
 }
 
 
 section{
+
     display:flex;
     justify-content: space-around;
 }
+.activites{
+    display: flex;
+    justify-content: space-around;
+}
+
 
 
 
