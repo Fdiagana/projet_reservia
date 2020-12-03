@@ -42,13 +42,21 @@ img{
     width: 150;
     height: 100;
 }
+.bloc1{
+    display: flex;
+}
 
 .chambre{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin: 20px;
-}
+ }
+ 
+
+    
+    
+
+
 .cadre1{
     border: solid 10px #F2F2F2;
     background-color: white;
@@ -58,30 +66,42 @@ img{
     border: solid 10px #F2F2F2;
     background-color: white;
 }
+.etoile{
+    text-align: center;
+}
 
 
 .chambrepop{
-    background-color: #F2F2F2;
-    margin: 15px;
+    background-color: #F2F2F2;   
 }
-#cadre3{
+
+#cadre3 {
     border: solid 10px #F2F2F2;
     background-color: white;
 }
-
+#cadre3 img{
+    float: center;
+}
 #cadre3 p{
     float: right;
     text-align: left;
 }
+.etoile{
+    float: right;
+    text-align: left;
 
-.iconepop{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
 }
 
 
-section{
+
+.iconepop{
+    display: flex;
+    justify-content: space-between;   
+}
+
+
+
+.hebergement{
 
     display: flex;
     justify-content: space-around;
@@ -90,18 +110,27 @@ section{
 .categorie1{
     background-color: #F2F2F2;
     border-radius: 10px;
+    padding: 1em ;
+    margin: 20px;
 }
 .categorie2{
     background-color: #F2F2F2;
     border-radius: 10px;
-    margin: 15px;
+    margin: 20px;
+    padding: 1em;
+    
 }
 .activites{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
 
-}
+ }
+ .titreact{
+     text-align: left;
+     margin: 15px;
+
+ }
 
 .footer{
     background-color: #F2F2F2;
