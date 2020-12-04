@@ -2,6 +2,8 @@ body{
     padding: 0;
     margin: 15px;
 }
+
+/* style pour la barre de naviguation*/
 nav{
     padding: 0;
     margin: 0;
@@ -21,14 +23,36 @@ nav{
 #link1{
     border-top: solid;
 }
+/* CSS de la partie filtre*/
+.economique{
+    display: flex; 
+    flex-direction: row; 
+}
+.iconeeco{
+    border-radius: 100px;
+  
+    
+}
 
 
-
-.recherche{
+/* commentaire pour la partie recherche*/ 
+.formrecherche{
    
     margin: 0;
     padding: 0;
-    display: flex;   
+    display: flex;
+    border-radius: 14px 5px 5px 14px;   
+}
+.iconerecherche{
+    background-color: #F2F2F2;
+    border-radius: 10px;
+}
+.boutonrecherche{
+    background-color:#0065FC  ;
+    border-radius: 0px 10px 10px 0px;
+    text-decoration: white;
+
+
 }
 
 .filtre{
@@ -62,9 +86,18 @@ img{
     background-color: white;
 }
 
+.cadre1 img{
+    box-shadow: 1px 1px 1px white;
+    border-radius: 14px 14px 0px 0px;
+}
+
 .cadre2{
     border: solid 10px #F2F2F2;
     background-color: white;
+}
+.cadre2 img{
+    box-shadow: 1px 1px 1px white;
+    border-radius: 14px 14px 0px 0px;
 }
 .etoile{
     text-align: center;
@@ -72,15 +105,21 @@ img{
 
 
 .chambrepop{
-    background-color: #F2F2F2;   
+    background-color: #F2F2F2;
+    
+     
 }
 
 #cadre3 {
-    border: solid 10px #F2F2F2;
+    
+    border: solid 14px white;
     background-color: white;
+    
 }
 #cadre3 img{
     float: center;
+    box-shadow: 1px 1px 1px white;
+    border-radius: 14px 0px 0px 14px;
 }
 #cadre3 p{
     float: right;
@@ -120,18 +159,37 @@ img{
     padding: 1em;
     
 }
+.categorie3{
+   
+    border-radius: 10px;
+    margin: 20px;
+    padding: 1em;
+
+}
 .activites{
     display: flex;
-    flex-direction: row;
     justify-content: space-around;
+
+    
 
  }
  .titreact{
-     text-align: left;
-     margin: 15px;
+     margin: 60px;
 
  }
+ #cadre4{
+     border-radius: 14px;
+     box-shadow: 1px 1px 1px 1px;
+    background-color: white;
+ }
+ #cadre4 img{
+     border-radius: 14px 14px 0px 0px;
 
+ }
+ 
+.port{
+    
+}
 .footer{
     background-color: #F2F2F2;
     display: flex;
