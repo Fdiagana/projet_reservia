@@ -140,6 +140,10 @@ nav{
     justify-content: space-around;
     
 }
+.imagechamb{
+    width: 150px;
+    height: 100px;
+}
 
 /* css de la gallery chambre à Marseille*/
 
@@ -219,7 +223,13 @@ nav{
  }
  .image{
      margin-right: 8px;
+     
  }
+ .imagechambpop{
+    width: 150px;
+     height: 100px;
+ }
+
  
  .cadre3{
     box-shadow: 1px 1px ;
@@ -252,6 +262,14 @@ nav{
 .activites{
     display: flex;
     justify-content: space-around;  
+ }
+ .imageactlong{
+    width: 150px;
+    height: 250px;
+ }
+ .imageactcarree{
+    width: 150px;
+    height: 100px;
  }
  .cadre4{
     border-radius: 14px;
