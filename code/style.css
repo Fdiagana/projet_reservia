@@ -315,8 +315,14 @@ nav{
     display: flex;
     justify-content: space-around;
 }
-
-
+/* CSS pour les smartphones*/
+@media all and (max-width: 480px) 
+{
+    .liennav{
+        display: flex;
+        flex-direction: column;
+    }
+}
     
 
  
