@@ -318,18 +318,11 @@ a
 .titreactivite{
     margin: 3em;
 }
-.activites{
+.activite{
     display: flex;
     justify-content: space-around;  
  }
- .imageactlong{
-    width: 150px;
-    height: 250px;
- }
- .imageactcarree{
-    width: 150px;
-    height: 100px;
- }
+ 
  .cadre4{
     border-radius: 14px;
     box-shadow: 1px 1px 1px 1px;
