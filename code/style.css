@@ -3,6 +3,14 @@ body{
     padding: 0;
     margin: 15px;
 }
+a{
+    text-decoration: none;
+    color: black;
+}
+.linkcolor{
+    color: #0065FC;
+    margin: 7px;
+}
 /* CSS de la barre de navigation*/
 nav{
     padding: 0;
@@ -12,6 +20,9 @@ nav{
     height: 60px;
     align-items: center;   
     
+}
+.liennav{
+    display: flex;
 }
 
 .link{
@@ -63,20 +74,32 @@ nav{
     margin-left: 15px;
     padding-right: 1px;
 }
+.eco :hover{
+    background-color: #0065FC  ;  
+}
 .famille{
     display:flex;  
     margin-left: 15px;
     padding-right: 1px;
 }
+.famille :hover{
+    background-color:#0065FC ;
+ }
 .couple{
     display:flex;  
     margin-left: 15px;
     padding-right: 1px;
 }
+.couple :hover{
+    background-color:  #0065FC ;
+}
 .chien{
     display:flex;  
     margin-left: 15px;
     padding-right: 1px;
+}
+.chien :hover{
+    background-color:#0065FC ;
 }
 #Economique{
     text-align: center;
