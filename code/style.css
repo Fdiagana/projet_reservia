@@ -15,15 +15,22 @@ nav{
 }
 
 .link{
+<<<<<<< HEAD
+=======
+    text-decoration: none;
+>>>>>>> 814266cb67270567f9ad95125763ae8f8708e780
     margin: 7px;
 
 }
 #link1{
     border-top: solid;
+<<<<<<< HEAD
     color: #0065FC ;  
 }
 #link3{
     color:  #0065FC;
+=======
+>>>>>>> 814266cb67270567f9ad95125763ae8f8708e780
 }
 .motdacceuil{
     margin: 3em;
@@ -57,11 +64,14 @@ nav{
     margin: 3em;
    
 }
+<<<<<<< HEAD
 .eco:hover{
     background-color:  #0065FC;
     
 }
 
+=======
+>>>>>>> 814266cb67270567f9ad95125763ae8f8708e780
 .titrefiltre{
     display: flex;
     margin-right: 15px;
@@ -71,25 +81,34 @@ nav{
     margin-left: 15px;
     padding-right: 1px;
 }
+<<<<<<< HEAD
 .famille:hover{
     background-color:  #0065FC;
 }
+=======
+>>>>>>> 814266cb67270567f9ad95125763ae8f8708e780
 .famille{
     display:flex;  
     margin-left: 15px;
     padding-right: 1px;
 }
+<<<<<<< HEAD
 .couple:hover{
     background-color:  #0065FC;
 }
+=======
+>>>>>>> 814266cb67270567f9ad95125763ae8f8708e780
 .couple{
     display:flex;  
     margin-left: 15px;
     padding-right: 1px;
 }
+<<<<<<< HEAD
 .chien:hover{
     background-color:  #0065FC;
 }
+=======
+>>>>>>> 814266cb67270567f9ad95125763ae8f8708e780
 .chien{
     display:flex;  
     margin-left: 15px;
@@ -185,6 +204,7 @@ nav{
     box-shadow: 1px 1px 1px white;
     border-radius: 14px 14px 0px 0px;
     padding: 4px;
+<<<<<<< HEAD
    
     
      }
@@ -198,6 +218,10 @@ a
  color: black;
  
 } 
+=======
+    
+     }
+>>>>>>> 814266cb67270567f9ad95125763ae8f8708e780
 .name{
     font-size: 10px;
     margin-left: 6px;
@@ -226,7 +250,13 @@ a
 .categorie2{
     background-color: #F2F2F2;
     border-radius: 10px;
+<<<<<<< HEAD
     margin: 3em; 
+=======
+    margin: 3em;
+    padding-bottom: 10px;
+    
+>>>>>>> 814266cb67270567f9ad95125763ae8f8708e780
  }
  
 .iconepop{
@@ -239,16 +269,24 @@ a
     padding-top: 20px;
 }
 .cadre3 img{
+<<<<<<< HEAD
     border-radius: 14px 0px 0px 14px;   
+=======
+    border-radius: 14px 0px 0px 14px;
+    
+>>>>>>> 814266cb67270567f9ad95125763ae8f8708e780
     
  }
  .image{
      margin-right: 8px;
+<<<<<<< HEAD
     
  }
  .imagechambpop{
     width: 150px;
     height: 100px;
+=======
+>>>>>>> 814266cb67270567f9ad95125763ae8f8708e780
  }
  
  .cadre3{
@@ -257,7 +295,13 @@ a
     background-color: white;
     margin-right: 15px;
     display: flex;
+<<<<<<< HEAD
     margin-top: 20px;  
+=======
+    margin-top: 20px;
+    
+    
+>>>>>>> 814266cb67270567f9ad95125763ae8f8708e780
  }
 .paragraphe{
     font-size: 10px;
@@ -295,6 +339,7 @@ a
    text-align: center;
    font-size: 10px;
 }
+<<<<<<< HEAD
 .imagelong{
     width:150px;
     height:250px;
@@ -303,6 +348,8 @@ a
     width: 150px;
     height:100px;
 }
+=======
+>>>>>>> 814266cb67270567f9ad95125763ae8f8708e780
 /* CSS du footer*/
 
 .footer{
