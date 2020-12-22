@@ -439,10 +439,8 @@ a
   }
  
 }
-@media only screen 
-    and (device-width : 375px) 
-    and (device-height : 667px) 
-    and (-webkit-device-pixel-ratio : 2) {
+@media only screen (min-width: 320px)
+     {
          /* navbar */
     .nav{
         position: relative;
