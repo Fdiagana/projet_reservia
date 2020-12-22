@@ -439,6 +439,91 @@ a
   }
  
 }
+@media only screen 
+    and (device-width : 375px) 
+    and (device-height : 667px) 
+    and (-webkit-device-pixel-ratio : 2) {
+         /* navbar */
+    .nav{
+        position: relative;
+    }
+    .heb_act{
+        display: flex;
+        position: absolute;
+        top: 15%;
+        left: 20%;
+    }
+    #link1{
+        border-bottom: solid;
+        color: #0065FC ;
+        border-top: none;
+        margin-right: 20px;
+    } 
+    .link{
+        border-bottom: solid;
+    }
+
+    /* css de la partie filtre */
+    .filtre{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 150px;       
+    }
+    .famille{
+        position: absolute;
+        margin-left: 60%;
+        margin-top: 11%;    
+    }
+    .famille :hover{
+        background-color: none;
+    }
+
+    /* partie chambre smartphone*/
+  .bloc1{
+      flex-direction: column-reverse;
+  } 
+  .categorie1{
+      background-color: white;
+  }
+  .chambre{
+      flex-direction: column;
+  } 
+  .cadre1{
+      height: 100px;
+      width: 250px;
+      margin-bottom: 70px;
+  }
+  .imagechamb{
+      height: 100px;
+      width: 250px;
+  }
+  /* partie acitvité smartphone*/
+  .activite{
+      flex-direction: column;
+      width: 150px;
+      margin: 3em;
+       
+  } 
+  .imagelong{
+      height: 100px;
+      width: 250px;    
+  }
+  .imagecarre{
+      width: 250px;
+  }
+
+  .cadre4{
+    width: 250px;
+    margin-bottom: 20px;
+  }
+  /* footer pour smartphone*/
+  .footer{
+      flex-direction: column;
+  }
+
+     }
     
 
  
