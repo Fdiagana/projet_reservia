@@ -25,6 +25,7 @@ nav{
     display: flex;
 }
 
+
 .link{
     margin: 7px;
 
@@ -65,8 +66,10 @@ nav{
 /*Css pour les filtres*/
 .filtre{
     display: flex;
-    margin: 3em;
-   
+    margin: 3em;   
+}
+.filtreur{
+    display: flex;
 }
 .eco:hover{
     background-color:  #0065FC;
@@ -355,6 +358,43 @@ a
 /* CSS pour les smartphones*/
 @media all and (max-width: 1279px) 
 {
+    /* navbar */
+    .nav{
+        position: relative;
+    }
+    .heb_act{
+        display: flex;
+        position: absolute;
+        top: 15%;
+        left: 20%;
+    }
+    #link1{
+        border-bottom: solid;
+        color: #0065FC ;
+        border-top: none;
+        margin-right: 20px;
+    } 
+    .link{
+        border-bottom: solid;
+    }
+
+    /* css de la partie filtre */
+    .filtre{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 150px;       
+    }
+    .famille{
+        position: absolute;
+        margin-left: 60%;
+        margin-top: 11%;    
+    }
+    .famille :hover{
+        background-color: none;
+    }
+
     /* partie chambre smartphone*/
   .bloc1{
       flex-direction: column-reverse;
