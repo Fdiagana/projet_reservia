@@ -1,529 +1,496 @@
-body{
-    font-family: 'Raleway', sans-serif;
-    padding: 0;
-    margin: 15px;
-}
-a{
-    text-decoration: none;
-    color: black;
-}
-.linkcolor{
-    color: #0065FC;
-    margin: 7px;
-}
-/* CSS de la barre de navigation*/
-nav{
-    padding: 0;
-    margin: 0;
-    display: flex;
-    justify-content: space-around;
-    height: 60px;
-    align-items: center;   
-    
-}
-.liennav{
-    display: flex;
-}
-
-
-.link{
-    margin: 7px;
-
-}
-#link1{
-    border-top: solid;
-    color: #0065FC ;  
-}
-#link3{
-    color:  #0065FC;
-}
-.motdacceuil{
-    margin: 3em;
-}
-/* CSS du bouton de recherche de ville*/
-.formrecherche{
-    position: relative;
-    margin: 3em;
-    display: flex;
-    border-radius: 14px 5px 5px 14px;   
-}
-.iconerecherche{
-    background-color: #F2F2F2;
-    border-radius: 14px 0px 0px 14px;
-    font-size: 12px;
-}
-.buttonrecherche{
-    background-color:#0065FC ;
-    border-radius: 0px 10px 10px 0px;
-    color: white;
-}
-/* Css info*/
-.iconeinfo{
-    margin-right: 6px;
-    color:  #0065FC ; 
-    background-color: white;
- }
-/*Css pour les filtres*/
-.filtre{
-    display: flex;
-    margin: 3em;   
-}
-.filtreur{
-    display: flex;
-}
-.eco:hover{
-    background-color:  #0065FC;
-    
-}
-
-.titrefiltre{
-    display: flex;
-    margin-right: 15px;
-}
-.eco{
-    display: flex; 
-    margin-left: 15px;
-    padding-right: 1px;
-}
-
-.famille:hover{
-    background-color:  #0065FC;
-}
-
-.eco :hover{
-    background-color: #0065FC  ;  
-}
-
-.famille{
-    display:flex;  
-    margin-left: 15px;
-    padding-right: 1px;
-}
-
-.couple:hover{
-    background-color:  #0065FC;
-}
-
-.famille :hover{
-    background-color:#0065FC ;
- }
-
-.couple{
-    display:flex;  
-    margin-left: 15px;
-    padding-right: 1px;
-}
-
-.chien:hover{
-    background-color:  #0065FC;
-}
-
-.couple :hover{
-    background-color:  #0065FC ;
-}
-
-.chien{
-    display:flex;  
-    margin-left: 15px;
-    padding-right: 1px;
-}
-.chien :hover{
-    background-color:#0065FC ;
-}
-#Economique{
-    text-align: center;
-    border-radius: 14px;
-    
-}
-.iconeeco{
-    position: absolute;
-    border-radius :50%;
-    padding:3px;
-    color:  #0065FC ;
-    background-color:  #DEEBFF;
-}
-.iconefamille{
-    position: absolute;
-    border-radius :50%;
-    padding:3px;
-    color:  #0065FC ; 
-    background-color: #DEEBFF ;
-}
-#Familial{
-    text-align: center;
-    border-radius: 14px;
-}
-
- .iconecouple{
-    position: absolute;
-    border-radius :50%;
-    padding:3px;
-    color:  #0065FC ; 
-    background-color: #DEEBFF ;
- }
- #Romantique{
-    text-align: center;
-    border-radius: 14px;  
- }
-.iconechien{
-    position: absolute;
-    border-radius :50%;
-    padding:3px;
-    color:  #0065FC ; 
-    background-color: #DEEBFF ;  
-}
-#animaux{
-    text-align: center;
-    border-radius: 14px; 
-}
-/* le Css de la ligne info*/
-.info{
-    display: flex;
-    margin: 3em;
-}
-/* css de la partie hebergement*/
-.bloc1{
-    display: flex;
-    
-}
-
-.hebergement{
-     display: flex;
-    justify-content: space-around;
-    
-}
-.imagechamb{
-    width: 150px;
-    height: 100px;
-}
-
-/* css de la gallery chambre à Marseille*/
-
-.categorie1{
-    background-color: #F2F2F2;
-    border-radius: 10px;
-    margin: 3em;
-
-     
-}
-.descriptif{
-    margin: 3em;
-    
-}
-.chambre{
-    display: flex;
-    margin: 3em;
-}
-.cadre1{
-    box-shadow: 1px 1px 1px;
-    border-radius: 14px;
-    background-color: white;
-    margin-right: 15px;
-}
-.cadre1 img{
-    box-shadow: 1px 1px 1px white;
-    border-radius: 14px 14px 0px 0px;
-    padding: 4px;
-   
-    
-     }
-.imagechamb{
-    width: 150px;
-    height:100px;
-}
-a
-{ 
- text-decoration:none; 
- color: black;
- 
-} 
-.name{
-    font-size: 10px;
-    margin-left: 6px;
-    
-}
-.price{
-    font-size: 10px;
-    margin-left: 6px;
-}
-.etoilechamb{
-    display: flex;
-    font-size: 10px;
-    margin-left: 6px;
-}
-.etoilecolor{
-    color: #0065FC;
-}
-.etoilenoncolor{
-    color: #F2F2F2;
-}
-.afficherplus{
-    margin: 3em;
-}
-
-/* Css de la partie chambre populaire*/
-.categorie2{
-    background-color: #F2F2F2;
-    border-radius: 10px;
-    margin: 3em; 
- }
- 
-.iconepop{
-    display: flex;
-    justify-content: space-between;
-    margin: 3em;   
-}
-.etoilechambpop{
-    display: flex;
-    padding-top: 20px;
-}
-.cadre3 img{
-    border-radius: 14px 0px 0px 14px;   
-    
- }
- .image{
-     margin-right: 8px;   
- }
- .imagechambpop{
-    width: 150px;
-    height: 100px;
-     
- }
- .imagechambpop{
-    width: 150px;
-     height: 100px;
- }
-
- 
- .cadre3{
-    box-shadow: 1px 1px ;
-    border-radius: 14px;
-    background-color: white;
-    margin-right: 15px;
-    display: flex;
-    margin-top: 20px;  
- }
-.paragraphe{
-    font-size: 10px;
-}
-.chambrepop{
-    margin: 3em;   
-}
-/* Css de la partie activités*/
-.categorie3{
-   
-    border-radius: 10px;
-    margin-bottom: 80px;
-    padding: 1em;
-    justify-content: space-between;
-
-}
-.titreactivite{
-    margin: 3em;
-}
-.activite{
-    display: flex;
-    justify-content: space-around;  
- }
- 
- .cadre4{
-    border-radius: 14px;
-    box-shadow: 1px 1px 1px 1px;
-   background-color: white;
-   
-}
-.cadre4 img{
-    border-radius: 14px 14px 0px 0px;
-   
-}
-.cadre4 p{
-   text-align: center;
-   font-size: 10px;
-}
-.imagelong{
-    width:150px;
-    height:250px;
-}
-.imagecarre{
-    width: 150px;
-    height:100px;
-}
-/* CSS du footer*/
-
-.footer{
-    background-color: #F2F2F2;
-    display: flex;
-    justify-content: space-around;
-}
-/* CSS pour les smartphones*/
-@media all and (max-width: 1279px) 
-{
-    /* navbar */
-    .nav{
-        position: relative;
+@media screen and (max-width: 767px) {
+    body{
+        font-family: 'Raleway', sans-serif;
+        padding: 0;
+        margin: 15px;
     }
-    .heb_act{
+    /* CSS de la partie navbar*/
+   .ligne1{
+       display: flex;
+       align-items: center;
+       justify-content: space-between;
+       margin-right: 40px;
+   }
+   .ligne2{
+       display: flex;
+       justify-content: space-between;
+       border-bottom: solid;
+       margin-left: 40px;
+    
+   }
+   .hebergement{
+       margin-left: ;
+       color: #0065FC;   
+
+   }
+   .mot{
+       font-size: 25px;
+   }
+ 
+   
+    /* Css formulaire de recherche*/
+   
+    .formrecherche{
         display: flex;
-        position: absolute;
-        top: 15%;
-        left: 20%;
+        
     }
-    #link1{
+    #uname{
+        text-align: center;
+        border: none;
+        border-top: solid;
         border-bottom: solid;
-        color: #0065FC ;
-        border-top: none;
-        margin-right: 20px;
-    } 
-    .link{
-        border-bottom: solid;
+        border-color:#F2F2F2 ;
     }
-
-    /* css de la partie filtre */
-    .filtre{
-        position: relative;
+    .iconemap{
+        padding: 8px;
+        border-radius: 10px 0px 0px 10px;
+        background-color:#F2F2F2 ;
+        font-size: 10px;
+        padding-bottom: 2px; 
+         
+    }
+    .iconerecherche{
+        padding: 8px;
+        border-radius: 4px 4px 4px 4px;
+        background-color:#0065FC ;
+        font-size: 10px;
+        padding-bottom: 2px;  
+    }
+    
+    .buttonrecherche{
+        display: none;
+    }
+        #conteneur1{
+        margin-top: 20px;
         display: flex;
         flex-direction: column;
-        justify-content: space-between;
-        height: 150px;       
+        justify-content: space-around;
+        margin-bottom: 20px;
     }
-    .famille{
-        position: absolute;
-        margin-left: 60%;
-        margin-top: 11%;    
-    }
-    .famille :hover{
-        background-color: none;
-    }
-
-    /* partie chambre smartphone*/
-  .bloc1{
-      flex-direction: column-reverse;
-  } 
-  .categorie1{
-      background-color: white;
-  }
-  .chambre{
-      flex-direction: column;
-  } 
-  .cadre1{
-      height: 100px;
-      width: 250px;
-      margin-bottom: 70px;
-  }
-  .imagechamb{
-      height: 100px;
-      width: 250px;
-  }
-  /* partie acitvité smartphone*/
-  .activite{
-      flex-direction: column;
-      width: 150px;
-      margin: 3em;
-       
-  } 
-  .imagelong{
-      height: 100px;
-      width: 250px;    
-  }
-  .imagecarre{
-      width: 250px;
-  }
-
-  .cadre4{
-    width: 250px;
-    margin-bottom: 20px;
-  }
-  /* footer pour smartphone*/
-  .footer{
-      flex-direction: column;
-  }
- 
-}
-@media only screen (min-width: 320px)
-     {
-         /* navbar */
-    .nav{
-        position: relative;
-    }
-    .heb_act{
+    .element1{
         display: flex;
-        position: absolute;
-        top: 15%;
-        left: 20%;
+        
     }
-    #link1{
-        border-bottom: solid;
-        color: #0065FC ;
-        border-top: none;
-        margin-right: 20px;
-    } 
-    .link{
-        border-bottom: solid;
-    }
-
-    /* css de la partie filtre */
-    .filtre{
-        position: relative;
+  
+   .ecofamily{
+       display: flex;
+      
+   }
+    .info{
         display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        height: 150px;       
+        margin-bottom: 20px;
     }
-    .famille{
-        position: absolute;
-        margin-left: 60%;
-        margin-top: 11%;    
+    /* CSS de la partie filtre*/
+    .economique{
+        display: flex;
+        border: none;
+        margin-bottom: 10px;
     }
-    .famille :hover{
-        background-color: none;
+    #Economique{
+        text-align: center;
+        border: none;
+        background-color: #F2F2F2;
+        border-radius: 8px 14px 14px 8px;
+        padding: 6px;
+        padding-left: 2px;
     }
-
-    /* partie chambre smartphone*/
-  .bloc1{
-      flex-direction: column-reverse;
-  } 
-  .categorie1{
-      background-color: white;
-  }
-  .chambre{
-      flex-direction: column;
-  } 
-  .cadre1{
-      height: 100px;
-      width: 250px;
-      margin-bottom: 70px;
-  }
-  .imagechamb{
-      height: 100px;
-      width: 250px;
-  }
-  /* partie acitvité smartphone*/
-  .activite{
-      flex-direction: column;
-      width: 150px;
-      margin: 3em;
-       
-  } 
-  .imagelong{
-      height: 100px;
-      width: 250px;    
-  }
-  .imagecarre{
-      width: 250px;
-  }
-
-  .cadre4{
-    width: 250px;
-    margin-bottom: 20px;
-  }
-  /* footer pour smartphone*/
-  .footer{
-      flex-direction: column;
-  }
-
+    .iconeeco{
+        padding: 8px;
+        border-radius: 50%;
+        background-color:#DEEBFF;
+        font-size: 10px;   
      }
+     .famille{
+         display: flex;
+        border: none;
+        margin-bottom: 10px;
+    }
+    #Familial{
+        text-align: center;
+        border: none;
+        background-color: #F2F2F2;
+        border-radius: 8px 14px 14px 8px;
+        padding: 6px;
+        padding-left: 2px;
+
+    }
+    .iconefamille{
+        padding: 8px;
+        border-radius: 50%;
+        background-color:#DEEBFF;
+        font-size: 10px;   
+     }
+    .couple{
+        display: flex;
+       border: none;
+       margin-bottom: 10px;
+   }
+   #Romantique{
+       text-align: center;
+       border: none;
+       background-color: #F2F2F2;
+       border-radius: 8px 14px 14px 8px;
+       padding: 6px;
+       padding-left: 2px;
+   }
+   .iconecouple{
+       padding: 8px;
+       border-radius: 50%;
+       background-color:#DEEBFF;
+       font-size: 10px;   
+    } 
+    .chien{
+        display: flex;
+       border: none;
+       margin-bottom: 10px;
+   }
+   #animaux{
+       text-align: center;
+       border: none;
+       background-color: #F2F2F2;
+       border-radius: 8px 14px 14px 8px;
+       padding: 6px;
+       padding-left: 2px;
+   }
+   .iconechien{
+       padding: 8px;
+       border-radius: 50%;
+       background-color:#DEEBFF;
+       font-size: 10px;   
+    }           
+    /* partie chambre*/
+    .bloc1{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .cadre1{
+        box-shadow: 1px 1px ;
+        border-radius: 14px;
+        height: 150px;
+        width: 260px;
+        margin-bottom: 50px;
+    }
+    .cadre1 img{
+        border-radius: 14px 14px 0px 0px;
+        width: 260px;
+        
+        }
+    
+    .imagechamb{
+        height: 100px;
+        width: 250px;
+    }
+    a
+    { 
+        text-decoration:none; 
+        color: black;
+ 
+    } 
+    .name{
+            font-size: 10px;
+            margin-left: 6px;
+    
+    }
+        .price{
+        font-size: 10px;
+        margin-left: 6px;
+    }
+        .etoilechamb{
+            display: flex;
+            font-size: 10px;
+            margin-left: 6px;
+    }
+    .etoilecolor{
+        color: #0065FC;
+    }
+    .etoilenoncolor{
+        color: #F2F2F2;
+    }
+
+    /* css de la gallery chambre à Marseille*/
+
     
 
- 
- 
+    /* css des chambres populaires*/
+    .categorie2{
+        background-color: #F2F2F2;
+        height: 500px;
+        width: 280px;
+           
+    }
+    .imagechambpop{
+        height: 100px;
+        width: 125px; 
+    }
+    .iconepop{
+        display: flex;
+        justify-content: center;
+        justify-content: space-between; 
+        margin-right: 2px;
+    }
+    .titrepop{
+        margin-left: 10px;
+    }
+    .courbe{
+        margin-right: 12px;
+    }
+   
+    .cadre3{
+        height: 100px;
+        width: 250px;
+        box-shadow: 1px 1px 1px 1px ;
+        border-radius: 14px;
+        background-color: white;
+        display: flex;
+        margin-top: 20px;
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-bottom: 20px;
+        
+    } 
+    .cadre3 img{
+        border-radius: 14px 0px 0px 14px;   
+        margin-right: 20px;
+     }
+    .paragraphe{
+        font-size: 10px;
+    }
+    .etoilechambpop{
+        display: flex;
+    }
+    /* css de la partie activité*/
+    .categorie3{
+   
+        border-radius: 10px;
+        margin-bottom: 80px;
+        padding: 1em;
+        justify-content: space-between;
+     }
+     .cadre4{
+        border-radius: 14px;
+        box-shadow: 1px 1px 1px 1px;
+       background-color: white;
+       
+    }
+    .cadre4 img{
+        border-radius: 14px 14px 0px 0px;
+       
+    }
+    .cadre4 p{
+       text-align: center;
+       font-size: 10px;
+    }
+    
+    .activite{
+        flex-direction: column;
+        width: 150px;
+         
+    } 
+    .imagelong{
+        height: 100px;
+        width: 250px;    
+    }
+    .imagecarre{
+        height: 100px;
+        width: 250px;
+    }
+  
+    .cadre4{
+      width: 250px;
+      margin-bottom: 20px;
+    }
+      
+}
+/* css pour les tablettes*/
 
+@media screen and (max-width: 1050px) and (min-width: 900px) {
+    body{
+        font-family: 'Raleway', sans-serif;
+        padding: 0;
+        margin: 15px;
+    }
+    .mon_site{
+        padding: 100px;
+    }
+    /* CSS de la partie filtre*/
+    #conteneur{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .element:nth-child(2){
+        align-self: flex-end;
+    }
+    .element:nth-child(3){
+        align-self: flex-end;
+
+    }
+    /* Css formulaire de recherche*/
+    .formrecherche{
+        display: flex;
+    }
+    .formrecherche{
+        position: relative;
+        display: flex;
+        border-radius: 14px 5px 5px 14px;
+        }
+    #conteneur1{
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        margin-bottom: 20px;
+    }
+    .element1{
+        display: flex;
+        margin-bottom: 10px;
+    }
+  
+   .ecofamily{
+       display: flex;
+   }
+    .info{
+        display: flex;
+        margin-bottom: 20px;
+    }
+    /* partie chambre*/
+    .bloc1{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .cadre1{
+        box-shadow: 1px 1px ;
+        border-radius: 14px;
+        height: 150px;
+        width: 260px;
+    }
+    .cadre1 img{
+        border-radius: 14px 14px 0px 0px;
+        width: 260px;
+        
+        }
+    
+    .imagechamb{
+        height: 100px;
+        width: 250px;
+    }
+    a
+    { 
+        text-decoration:none; 
+        color: black;
+ 
+    } 
+    .name{
+            font-size: 10px;
+            margin-left: 6px;
+    
+    }
+        .price{
+        font-size: 10px;
+        margin-left: 6px;
+    }
+        .etoilechamb{
+            display: flex;
+            font-size: 10px;
+            margin-left: 6px;
+    }
+    .etoilecolor{
+        color: #0065FC;
+    }
+    .etoilenoncolor{
+        color: #F2F2F2;
+    }
+
+    /* css de la gallery chambre à Marseille*/
+
+    
+
+    /* css des chambres populaires*/
+    .categorie2{
+        background-color: #F2F2F2;
+        height: 500px;
+        width: 280px;
+           
+    }
+    .imagechambpop{
+        height: 100px;
+        width: 125px; 
+    }
+    .iconepop{
+        display: flex;
+        justify-content: center;
+        justify-content: space-between; 
+        margin-right: 2px;
+    }
+    .titrepop{
+        margin-left: 10px;
+    }
+    .courbe{
+        margin-right: 12px;
+    }
+   
+    .cadre3{
+        height: 100px;
+        width: 250px;
+        box-shadow: 1px 1px 1px 1px ;
+        border-radius: 14px;
+        background-color: white;
+        display: flex;
+        margin-top: 20px;
+        margin-left: 10px;
+        margin-right: 10px;
+        
+    } 
+    .cadre3 img{
+        border-radius: 14px 0px 0px 14px;   
+        margin-right: 20px;
+     }
+    .paragraphe{
+        font-size: 10px;
+    }
+    .etoilechambpop{
+        display: flex;
+    }
+    /* css de la partie activité*/
+    .categorie3{
+   
+        border-radius: 10px;
+        margin-bottom: 80px;
+        padding: 1em;
+        justify-content: space-between;
+     }
+     .cadre4{
+        border-radius: 14px;
+        box-shadow: 1px 1px 1px 1px;
+       background-color: white;
+       
+    }
+    .cadre4 img{
+        border-radius: 14px 14px 0px 0px;
+       
+    }
+    .cadre4 p{
+       text-align: center;
+       font-size: 10px;
+    }
+    
+    .activite{
+        flex-direction: column;
+        width: 150px;
+         
+    } 
+    .imagelong{
+        height: 100px;
+        width: 250px;    
+    }
+    .imagecarre{
+        height: 100px;
+        width: 250px;
+    }
+  
+    .cadre4{
+      width: 250px;
+      margin-bottom: 20px;
+    }
+      
+}
