@@ -1,8 +1,8 @@
-@media screen and (max-width: 767px) {
+
     body{
         font-family: 'Raleway', sans-serif;
         padding: 0;
-        margin: 15px;
+        margin: 0;
     }
     /* CSS de la partie navbar*/
    .ligne1{
@@ -14,17 +14,29 @@
    .ligne2{
        display: flex;
        justify-content: space-between;
-       border-bottom: solid;
        margin-left: 40px;
     
    }
-   .hebergement{
-       margin-left: ;
-       color: #0065FC;   
+   .hebergementlink{
+       padding-left: 20px;
+       padding-right: 90px;
+       border-bottom: solid;
+       border-bottom-color:  #0065FC;
+   }
+   .activitelink{
+       padding-left: 85px;
+       border-bottom: solid;
 
    }
-   .mot{
-       font-size: 25px;
+   .motmob{
+       font-size: 20px;
+       justify-content: center;
+   }
+   .motdesk{
+       display: none;
+   }
+   .mottab{
+       display: none;
    }
  
    
@@ -54,7 +66,8 @@
         border-radius: 4px 4px 4px 4px;
         background-color:#0065FC ;
         font-size: 10px;
-        padding-bottom: 2px;  
+        padding-bottom: 2px; 
+        color: white; 
     }
     
     .buttonrecherche{
@@ -68,19 +81,16 @@
         margin-bottom: 20px;
     }
     .element1{
-        display: flex;
-        
+        display: flex;   
     }
-  
-   .ecofamily{
-       display: flex;
-      
-   }
     .info{
         display: flex;
         margin-bottom: 20px;
     }
     /* CSS de la partie filtre*/
+    .ecofamily{
+        display: flex;
+     }
     .economique{
         display: flex;
         border: none;
@@ -101,9 +111,10 @@
         font-size: 10px;   
      }
      .famille{
-         display: flex;
+        display: flex;
         border: none;
         margin-bottom: 10px;
+        margin-left: 10px;
     }
     #Familial{
         text-align: center;
@@ -112,6 +123,8 @@
         border-radius: 8px 14px 14px 8px;
         padding: 6px;
         padding-left: 2px;
+        width: 80
+        
 
     }
     .iconefamille{
@@ -172,8 +185,7 @@
     }
     .cadre1 img{
         border-radius: 14px 14px 0px 0px;
-        width: 260px;
-        
+        width: 260px; 
         }
     
     .imagechamb{
@@ -299,198 +311,38 @@
       width: 250px;
       margin-bottom: 20px;
     }
-      
-}
-/* css pour les tablettes*/
 
-@media screen and (max-width: 1050px) and (min-width: 900px) {
-    body{
-        font-family: 'Raleway', sans-serif;
-        padding: 0;
-        margin: 15px;
-    }
-    .mon_site{
-        padding: 100px;
-    }
-    /* CSS de la partie filtre*/
-    #conteneur{
-        display: flex;
-        align-items: center;
-        justify-content: space-around;
-    }
-    .element:nth-child(2){
-        align-self: flex-end;
-    }
-    .element:nth-child(3){
-        align-self: flex-end;
-
-    }
-    /* Css formulaire de recherche*/
-    .formrecherche{
-        display: flex;
-    }
-    .formrecherche{
-        position: relative;
-        display: flex;
-        border-radius: 14px 5px 5px 14px;
+    /* css Tablette */
+    @media screen and (min-width:667px)  {
+        .motmob{
+            display: none;
         }
-    #conteneur1{
-        margin-top: 20px;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-around;
-        margin-bottom: 20px;
-    }
-    .element1{
-        display: flex;
-        margin-bottom: 10px;
-    }
-  
-   .ecofamily{
-       display: flex;
-   }
-    .info{
-        display: flex;
-        margin-bottom: 20px;
-    }
-    /* partie chambre*/
-    .bloc1{
-        display: flex;
-        flex-direction: column-reverse;
-    }
-    .cadre1{
-        box-shadow: 1px 1px ;
-        border-radius: 14px;
-        height: 150px;
-        width: 260px;
-    }
-    .cadre1 img{
-        border-radius: 14px 14px 0px 0px;
-        width: 260px;
-        
-        }
-    
-    .imagechamb{
-        height: 100px;
-        width: 250px;
-    }
-    a
-    { 
-        text-decoration:none; 
-        color: black;
- 
-    } 
-    .name{
-            font-size: 10px;
-            margin-left: 6px;
-    
-    }
-        .price{
-        font-size: 10px;
-        margin-left: 6px;
-    }
-        .etoilechamb{
+        .mottab{
             display: flex;
-            font-size: 10px;
-            margin-left: 6px;
-    }
-    .etoilecolor{
-        color: #0065FC;
-    }
-    .etoilenoncolor{
-        color: #F2F2F2;
-    }
+            font-size: 20px;
+        }
+        .motdesk{
+            display: none;
+        }
 
-    /* css de la gallery chambre à Marseille*/
-
-    
-
-    /* css des chambres populaires*/
-    .categorie2{
-        background-color: #F2F2F2;
-        height: 500px;
-        width: 280px;
-           
-    }
-    .imagechambpop{
-        height: 100px;
-        width: 125px; 
-    }
-    .iconepop{
-        display: flex;
-        justify-content: center;
-        justify-content: space-between; 
-        margin-right: 2px;
-    }
-    .titrepop{
-        margin-left: 10px;
-    }
-    .courbe{
-        margin-right: 12px;
-    }
-   
-    .cadre3{
-        height: 100px;
-        width: 250px;
-        box-shadow: 1px 1px 1px 1px ;
-        border-radius: 14px;
-        background-color: white;
-        display: flex;
-        margin-top: 20px;
-        margin-left: 10px;
-        margin-right: 10px;
-        
-    } 
-    .cadre3 img{
-        border-radius: 14px 0px 0px 14px;   
-        margin-right: 20px;
-     }
-    .paragraphe{
-        font-size: 10px;
-    }
-    .etoilechambpop{
-        display: flex;
-    }
-    /* css de la partie activité*/
-    .categorie3{
-   
-        border-radius: 10px;
-        margin-bottom: 80px;
-        padding: 1em;
-        justify-content: space-between;
-     }
-     .cadre4{
-        border-radius: 14px;
-        box-shadow: 1px 1px 1px 1px;
-       background-color: white;
        
     }
-    .cadre4 img{
-        border-radius: 14px 14px 0px 0px;
-       
-    }
-    .cadre4 p{
-       text-align: center;
-       font-size: 10px;
-    }
-    
-    .activite{
-        flex-direction: column;
-        width: 150px;
-         
-    } 
-    .imagelong{
-        height: 100px;
-        width: 250px;    
-    }
-    .imagecarre{
-        height: 100px;
-        width: 250px;
-    }
-  
-    .cadre4{
-      width: 250px;
-      margin-bottom: 20px;
-    }
+    /* css desktop*/
+    @media screen and (min-width: 1024px){
+        .motmob{
+            display: none;
+        }
+        .motdesk{
+            display: flex;
+            font-size: 20px;
+        }
+        .mottab{
+            display: none;
+        }
       
-}
+
+
+    }
+
+
+
