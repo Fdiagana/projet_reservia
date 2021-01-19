@@ -9,34 +9,45 @@
        display: flex;
        align-items: center;
        justify-content: space-between;
-       margin-right: 40px;
+    
+   }
+   .inscription{
+       padding-right: 60px;
    }
    .ligne2{
        display: flex;
-       justify-content: space-between;
-       margin-left: 40px;
-    
-   }
-   .hebergementlink{
-       padding-left: 20px;
-       padding-right: 90px;
-       border-bottom: solid;
-       border-bottom-color:  #0065FC;
-   }
-   .activitelink{
-       padding-left: 85px;
-       border-bottom: solid;
+       justify-content: space-between; 
+       /*margin-right: 130px;*/
 
    }
+   
+   .hebergementlink{
+       padding-left: 10px;
+       padding-right: 40px;
+       border-bottom: solid;
+       border-bottom-color:  #0065FC;
+       
+   }
+   .activitelink{
+       border-bottom: solid;
+       padding-right: 10px;
+       padding-left: 40px;
+      /* margin-right: 60px;*/
+       
+   }
+   .activitelien{
+    
+    padding-left: 60px;
+    /*margin-right: 60px;*/
+   }
    .motmob{
-       font-size: 20px;
+       font-size: 25px;
        justify-content: center;
+       margin-left: 8px;
    }
-   .motdesk{
-       display: none;
-   }
-   .mottab{
-       display: none;
+   
+   .motdaccueil{
+       margin-left: 8px;
    }
  
    
@@ -44,7 +55,9 @@
    
     .formrecherche{
         display: flex;
-        
+        margin-left: 8px;
+        max-width: 80%;
+
     }
     #uname{
         text-align: center;
@@ -52,9 +65,10 @@
         border-top: solid;
         border-bottom: solid;
         border-color:#F2F2F2 ;
+        height: 30px;
     }
     .iconemap{
-        padding: 8px;
+        padding: 12px;
         border-radius: 10px 0px 0px 10px;
         background-color:#F2F2F2 ;
         font-size: 10px;
@@ -62,7 +76,7 @@
          
     }
     .iconerecherche{
-        padding: 8px;
+        padding: 12px;
         border-radius: 4px 4px 4px 4px;
         background-color:#0065FC ;
         font-size: 10px;
@@ -73,125 +87,173 @@
     .buttonrecherche{
         display: none;
     }
-        #conteneur1{
+    #conteneur1{
         margin-top: 20px;
         display: flex;
         flex-direction: column;
         justify-content: space-around;
         margin-bottom: 20px;
+        max-width: 80%;
     }
     .element1{
-        display: flex;   
+        display: flex;
+        max-width: 80%;   
     }
     .info{
         display: flex;
         margin-bottom: 20px;
+        margin-left: 8px;
     }
+    .infoline{
+        font-size: 14px;
+    }
+    
     /* CSS de la partie filtre*/
     .ecofamily{
         display: flex;
+        margin-bottom: 8px;
      }
     .economique{
-        display: flex;
         border: none;
+        position: relative;
+        display: flex;
         margin-bottom: 10px;
     }
     #Economique{
-        text-align: center;
-        border: none;
-        background-color: #F2F2F2;
-        border-radius: 8px 14px 14px 8px;
-        padding: 6px;
-        padding-left: 2px;
+        width: 120px;
+        text-align: center; 
+        background-color: white;
+        border-radius: 20px 20px 20px 20px;
+        padding: 12px;
+        margin-right: 14px;
+        margin-left: 6px;
+        
     }
     .iconeeco{
+        position: absolute;
+        width: 26px;
+        height: 26px;
         padding: 8px;
-        border-radius: 50%;
-        background-color:#DEEBFF;
-        font-size: 10px;   
+        border-radius: 60%;
+        text-align: center;
+        background-color:#DEEBFF; 
+        margin-right: 4px; 
+        color: #0065FC ;
      }
      .famille{
-        display: flex;
         border: none;
+        position: relative;
+        display: flex;
         margin-bottom: 10px;
-        margin-left: 10px;
     }
     #Familial{
-        text-align: center;
-        border: none;
-        background-color: #F2F2F2;
-        border-radius: 8px 14px 14px 8px;
-        padding: 6px;
-        padding-left: 2px;
-        width: 80
+        width: 100px;
+        text-align: center; 
+        background-color: white;
+        border-radius: 20px 20px 20px 20px;
+        padding: 12px;
+        /*margin-right: 14px;*/
+        margin-left: 6px;
         
-
     }
     .iconefamille{
+        position: absolute;
+        width: 26px;
+        height: 26px;
         padding: 8px;
-        border-radius: 50%;
-        background-color:#DEEBFF;
-        font-size: 10px;   
+        border-radius: 60%;
+        text-align: center;
+        background-color:#DEEBFF; 
+        margin-right: 4px;
+        color: #0065FC; 
      }
-    .couple{
+    
+     .couple{
+        border: none;
+        position: relative;
         display: flex;
-       border: none;
-       margin-bottom: 10px;
-   }
-   #Romantique{
-       text-align: center;
-       border: none;
-       background-color: #F2F2F2;
-       border-radius: 8px 14px 14px 8px;
-       padding: 6px;
-       padding-left: 2px;
-   }
-   .iconecouple{
-       padding: 8px;
-       border-radius: 50%;
-       background-color:#DEEBFF;
-       font-size: 10px;   
-    } 
-    .chien{
+        margin-bottom: 10px;
+    }
+    #Romantique{
+        width: 120px;
+        text-align: center; 
+        background-color: white;
+        border-radius: 20px 20px 20px 20px;
+        padding: 12px;
+        margin-right: 14px;
+        margin-left: 6px;
+        
+    }
+    .iconecouple{
+        position: absolute;
+        width: 26px;
+        height: 26px;
+        padding: 8px;
+        border-radius: 60%;
+        text-align: center;
+        background-color:#DEEBFF; 
+        margin-right: 4px;
+        color: #0065FC; 
+     }
+     .chien{
+        border: none;
+        position: relative;
         display: flex;
-       border: none;
-       margin-bottom: 10px;
-   }
-   #animaux{
-       text-align: center;
-       border: none;
-       background-color: #F2F2F2;
-       border-radius: 8px 14px 14px 8px;
-       padding: 6px;
-       padding-left: 2px;
-   }
-   .iconechien{
-       padding: 8px;
-       border-radius: 50%;
-       background-color:#DEEBFF;
-       font-size: 10px;   
-    }           
+        margin-bottom: 10px;
+    }
+    #animaux{
+        width: 160px;
+        text-align: center; 
+        background-color: white;
+        border-radius: 20px 20px 20px 20px;
+        padding: 12px;
+        margin-right: 14px;
+        margin-left: 6px;
+        
+    }
+    .iconechien{
+        position: absolute;
+        width: 26px;
+        height: 26px;
+        padding: 8px;
+        border-radius: 60%;
+        text-align: center;
+        background-color:#DEEBFF; 
+        margin-right: 4px; 
+        color: #0065FC;
+     }
+               
     /* partie chambre*/
     .bloc1{
         display: flex;
         flex-direction: column-reverse;
+
     }
     .cadre1{
-        box-shadow: 1px 1px ;
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
         border-radius: 14px;
         height: 150px;
-        width: 260px;
-        margin-bottom: 50px;
+        /*min-width: 260px;*/
+        max-width: 90%;
+        margin-bottom: 20px;
+       
     }
     .cadre1 img{
         border-radius: 14px 14px 0px 0px;
-        width: 260px; 
+        width: 25%;
+        min-width: 98%;
+        
+        
         }
     
     .imagechamb{
         height: 100px;
-        width: 250px;
+        max-width: 80%;
+        margin: 5px;
+        
+           
     }
+   
     a
     { 
         text-decoration:none; 
@@ -219,20 +281,19 @@
         color: #F2F2F2;
     }
 
-    /* css de la gallery chambre à Marseille*/
-
     
 
     /* css des chambres populaires*/
     .categorie2{
         background-color: #F2F2F2;
-        height: 500px;
-        width: 280px;
+        /*height: 500px;*/
+        max-width: 100%;
            
     }
     .imagechambpop{
         height: 100px;
-        width: 125px; 
+        width: 125px;
+        margin: 5px; 
     }
     .iconepop{
         display: flex;
@@ -248,44 +309,49 @@
     }
    
     .cadre3{
-        height: 100px;
-        width: 250px;
-        box-shadow: 1px 1px 1px 1px ;
+        height: 110px;
+        /*width: 250px;*/
+        max-width: 90%;
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
         border-radius: 14px;
         background-color: white;
         display: flex;
         margin-top: 20px;
         margin-left: 10px;
-        margin-right: 10px;
+        /*margin-right: 10px;*/
         margin-bottom: 20px;
         
     } 
     .cadre3 img{
         border-radius: 14px 0px 0px 14px;   
         margin-right: 20px;
+        /*min-width: 98%;*/
      }
     .paragraphe{
         font-size: 10px;
+     
     }
     .etoilechambpop{
         display: flex;
     }
     /* css de la partie activité*/
     .categorie3{
-   
         border-radius: 10px;
-        margin-bottom: 80px;
-        padding: 1em;
         justify-content: space-between;
+        
      }
      .cadre4{
         border-radius: 14px;
-        box-shadow: 1px 1px 1px 1px;
-       background-color: white;
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+        background-color: white;
+        max-width: 90%;
+        /*width: 250px;*/
+        margin-bottom: 20px;
        
     }
     .cadre4 img{
         border-radius: 14px 14px 0px 0px;
+        /*min-width: 800px;*/
        
     }
     .cadre4 p{
@@ -295,54 +361,26 @@
     
     .activite{
         flex-direction: column;
-        width: 150px;
-         
+        /*width: 150px;*/
+        
     } 
     .imagelong{
         height: 100px;
-        width: 250px;    
+        width: 100%;
+        
+        
+
     }
     .imagecarre{
         height: 100px;
-        width: 250px;
+        /*min-width: 250px;*/
+        width: 100%;
     }
   
-    .cadre4{
-      width: 250px;
-      margin-bottom: 20px;
+   
+    .footer{
+        background-color: #F2F2F2;
+        max-width: 100%;
     }
 
-    /* css Tablette */
-    @media screen and (min-width:667px)  {
-        .motmob{
-            display: none;
-        }
-        .mottab{
-            display: flex;
-            font-size: 20px;
-        }
-        .motdesk{
-            display: none;
-        }
-
-       
-    }
-    /* css desktop*/
-    @media screen and (min-width: 1024px){
-        .motmob{
-            display: none;
-        }
-        .motdesk{
-            display: flex;
-            font-size: 20px;
-        }
-        .mottab{
-            display: none;
-        }
-      
-
-
-    }
-
-
-
+ 
