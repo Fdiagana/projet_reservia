@@ -12,27 +12,14 @@
     <body>
         <div class="mon_site">
             <!--je crée ma barre de navigation-->
-            <nav>
-                <div class="ligne1">
-                    <div  class="logo">
-                        <img src="images/logo/Reservia.svg" alt="logo"> 
-                    </div>               
-                    <div class="inscription">
-                        <a href="#">s'inscrire</a> 
-                    </div>           
-                </div>
-                <!-- je crée le lien pour ma version desktop -->
-                
-        
-                <!--je mets ici les deux liens du bas pour ma version mobile-->
-                <div class="ligne2">
-                    <div  class="hebergementlink"> 
+            <nav>   
+                    <div class="lien">
+                        <img src="images/logo/Reservia.svg" alt="logo">
+                        <a href="#">s'inscrire</a>         
                         <a href="#mon_hebergement">Hebergement</a>
-                    </div>
-                    <div class="activitelink">
                         <a class="activitelien" href="#mon_activite">Activités</a>
                     </div>
-                </div>  
+                                               
             </nav>
     
             <div>
@@ -65,11 +52,11 @@
             </div>
     
             <!--je crée mes filtres de recherche-->
-            <div id="conteneur1">
+            <div>
                 <div class="element1">
                     <span>Filtres</span>
                 </div>
-                <div class="ecofamily">
+                <div class="cases">
                     <div class="element1" class="economique">
                         <div class="iconeeco">
                             <i class="fas fa-money-bill-wave"></i>
@@ -86,25 +73,29 @@
                             <input type="text" id="Familial" name="Familial" placeholder="Familial">
                         </div>    
                     </div>
+                    <div class="couple">
+                        <div class="iconecouple">
+                            <i class="fas fa-heart"></i>
+                        </div>
+                        <div>
+                            <input type="text" id="Romantique" name="Romantique" placeholder="Romantique"> 
+                        </div>   
+                    </div>
+                    <div class="chien">
+                        <div class="iconechien">
+                            <i class="fas fa-dog"></i>
+                        </div>
+                        <div>
+                            <input type="text" id="animaux" name="animaux" placeholder="Animaux autorisés">
+                        </div> 
+                    </div>               
                 </div>
+
+                </div>
+                    
+            
                 
-                <div class="couple">
-                    <div class="iconecouple">
-                        <i class="fas fa-heart"></i>
-                    </div>
-                    <div>
-                        <input type="text" id="Romantique" name="Romantique" placeholder="Romantique"> 
-                    </div>   
-                </div>
-                <div class="chien">
-                    <div class="iconechien">
-                        <i class="fas fa-dog"></i>
-                    </div>
-                    <div>
-                        <input type="text" id="animaux" name="animaux" placeholder="Animaux autorisés">
-                    </div> 
-                </div>               
-            </div>
+               
     
             <!--je crée ma ligne d'information-->
             <div class="info">
@@ -124,7 +115,7 @@
                             <h5>Hébérgement à Marseille</h5>
                         </div>
                         <!--je crée mon prémier grand div pour la premiére rangé de chambre-->
-                        <div class="chambre">
+                        <div class="chambre1">
                             <a href="#">
                                 <div class="cadre1">
                                     <div><img class="imagechamb" src="images/hebergements/3_medium/marcus-loke-WQJvWU_HZFo-unsplash.jpg"
@@ -178,7 +169,7 @@
                             </a>                   
                         </div>
                         <!--je crée mon second grand div pour la deuxiéme rangée de chambre-->
-                        <div class="chambrepop">
+                        <div class="chambre2">
                             <a href="#">
                                 <div class="cadre1">
                                     <div class="imagechamb1">
@@ -395,7 +386,7 @@
                         </div>
                     </a>     
                     <div>
-                        <a href="#">
+                        <a href="#" >
                             <div class="cadre4">
                                 <div>
                                     <img class="imagecarre" src="images/activites/3_medium/florian-wehde-xW9e8gdotxI-unsplash.jpg" 
@@ -411,7 +402,7 @@
                                     Parc Longchamps
                                 </p>
                             </div>
-                       
+                        </a>
                     </div> 
                 </div>
             </section>
