@@ -1,39 +1,49 @@
-
-    body{
-        font-family: 'Raleway', sans-serif;
-        padding: 0;
-        margin: 0;
-    }
+body{
+    font-family: 'Raleway', sans-serif;
+    padding: 0;
+    margin: 0;
+}
     /* CSS de la partie navbar*/
   
-   .lien{
-       display: flex;
-       align-items: center;
-       justify-content: space-around; 
-       flex-wrap: wrap; 
-       max-width: 60%; 
-            
-   }
- 
    
+.header-nav{
+        
+    flex-wrap: wrap;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 80%;  
+}
+.logo{
+    width: 50%;
+}
+.heb{
+    border-bottom: solid;
+        
+}
+.act{
+    border-bottom: solid;
+}
+.motmob{
+    font-size: 25px;
+    justify-content: center;
+    margin-left: 8px;
+}
    
-   .motmob{
-       font-size: 25px;
-       justify-content: center;
-       margin-left: 8px;
-   }
-   
-   .motdaccueil{
-       margin-left: 8px;
-   }
+.motdaccueil{
+    margin-left: 8px;
+}
  
    
     /* Css formulaire de recherche*/
-   
+.element1{
+    margin-left:3px; 
+}   
     .formrecherche{
         display: flex;
         /*margin-left: 8px;*/
         max-width: 80%;
+        margin-bottom: 6px;
 
     }
     #uname{
@@ -76,6 +86,9 @@
         display: flex;
         max-width: 80%;   
     }
+    .iconeinfo{
+        text-decoration: white;
+    }
     .info{
         display: flex;
         margin-bottom: 20px;
@@ -89,7 +102,7 @@
     .cases{
         display: flex;
         flex-wrap: wrap;
-        max-width: 80%;
+        max-width: 100%;
         
      }
     .economique{
@@ -97,6 +110,7 @@
         position: relative;
         display: flex;
         margin-bottom: 10px;
+      
     }
     #Economique{
         width: 120px;
@@ -106,6 +120,7 @@
         padding: 12px;
         margin-right: 14px;
         margin-left: 6px;
+
        
         
     }
@@ -155,7 +170,7 @@
         margin-bottom: 10px;
     }
     #Romantique{
-        width: 120px;
+        width: 160px;
         text-align: center; 
         background-color: white;
         border-radius: 20px 20px 20px 20px;
@@ -182,7 +197,7 @@
         margin-bottom: 10px;
     }
     #animaux{
-        width: 160px;
+        width: 180px;
         text-align: center; 
         background-color: white;
         border-radius: 20px 20px 20px 20px;
@@ -311,89 +326,138 @@
         display: flex;
     }
     /* css de la partie activité*/
-    .categorie3{
-        border-radius: 10px;
-        justify-content: space-between;
+.categorie3{
+    border-radius: 10px;
+    justify-content: space-between;
+    max-width: 90%;
         
-     }
-     .activite{
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-around;
-    }
+}
+.activite{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+        
+}
 
-     .cadre4{
-        border-radius: 14px;
-        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-        background-color: white;
-        margin-bottom: 20px;
-        
+.cadre4{
+    border-radius: 14px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    background-color: white;
+    margin-bottom: 20px;
+    min-width: 80%;
+}
+.cadre4 img{
+    border-radius: 14px 14px 0px 0px;
+    min-width: 80%;      
+}
+.cadre4 p{
+    text-align: center;
+    font-size: 10px;
        
-    }
-    .cadre4 img{
-        border-radius: 14px 14px 0px 0px;
+} 
+     
+.imagelong{
+    height: 150px;
+    width: 100%;
         
-          
-    }
-    .cadre4 p{
-       text-align: center;
-       font-size: 10px;
-       
-    }
-    
-  
-   
-    
-  
-    .imagelong{
-        height: 150px;
-        width: 250px;
-        
-    }
-    .imagecarre{
-        height: 150px;
-        width: 250px;
-    }
-  
-   
-    .footer{
-        background-color: #F2F2F2;
-        max-width: 100%;
+}
+.imagecarre{
+    height: 150px;
+    width: 100%;        
+}
+
+.footer{
+    background-color: #F2F2F2;
+    max-width: 100%;
     }
 
     /*CSS de la partie desktop*/
 
-    @media screen and (min-width: 767px){
+@media screen and (min-width: 767px){
+.act{
+    border-bottom: none;
+}
+.heb{
+    border-bottom: none;
+    border-top: solid;
+    border-color:#0065FC ;
+}
+    .header-nav{
+    margin-left: 3em;
+}
+.motbienvenu{
+    margin-left: 3em;
+}
+.motdaccueil{
+    margin-left: 3em;
+}
+    .formrecherche{
+    margin-bottom: 12px;
+    margin-left: 3em;
+}
+    .info{
+    margin-left: 4em;
+}
+.cases{
+    margin-left: 3em;
+    margin-top: 16px;
+    margin-bottom: 12px;
+    align-items: center;
+}
+
+
     .bloc1{
-        display: flex ;
-        flex-direction: row;
-        max-width: 100%;
-        justify-content: space-around;
-    }
-    .hebergement{
-        background-color: #F2F2F2;
-        border-radius: 10px;
-        
-    }
-     .cadre1{
-        
-        width: 250px;
-     }
+    display: flex ;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.hebergement{
+    background-color: #F2F2F2;
+    border-radius: 10px;
+    padding-left: 20px;      
+}
+.cadre1{    
+    width: 250px;
     
-     .chambre1{
-         display: flex;
+}
+    
+.chambre1{
+    display: flex;
          
-     }
-     .chambre2{
-         display: flex;
-     }
-      .categorie2{
-          border-radius: 10px;
-      } 
-      .footer{
-          display: flex;
-          justify-content: space-around;
-      }  
-     }
+}
+.chambre2{
+    display: flex;
+}
+.categorie2{
+    border-radius: 10px;
+} 
+.categorie3{
+    min-width: 100%;
+}
+.activite{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;  
+      
+}
+.titreactivite{
+    margin-left: 4em;
+}
+.imagelong{
+    height: 350px;
+    width: 200px;
+        
+}
+.imagecarre{
+    height: 150px;
+    width: 200px;        
+}
+
+.footer{
+    display: flex;
+    justify-content: space-around;
+}
+     
    
  
