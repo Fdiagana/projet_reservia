@@ -14,10 +14,11 @@
             <!--je crée ma barre de navigation-->
             
                 <nav class="header-nav">
-                    <div class="logo"><img src="images/logo/Reservia.svg" alt="logo"></div>
-                    <div class="ins"><a href="#">s'inscrire</a></div>            
-                    <div class="heb"><a href="#mon_hebergement">Hebergement</a></div>
-                    <div class="act"><a href="#mon_activite">Activités</a> </div>                               
+                    <div class="logo"><img src="images/logo/Reservia.svg" alt="logo"></div> 
+                    <div class="element"><a class="ins" href="#">s'inscrire</a></div>        
+                    <div class="element"><a class="heb" href="#mon_hebergement">Hébergements</a></div>
+                    <div class="element"><a class="act" href="#mon_activite">Activités</a> </div> 
+                                                 
                 </nav>   
             
             <div>
@@ -36,8 +37,8 @@
                     <i class="fas fa-map-marker-alt"></i> 
                 </div>
                 <div>
-                    <form>
-                        <input type="text" id="uname" name="name" placeholder="Marseille,France">      
+                    <form class="name-marseille">
+                        <input type="text" id="Marseille" name="Marseille" placeholder="Marseille,France">      
                     </form>
                 </div>
                 <div class="iconerecherche">
@@ -51,10 +52,9 @@
     
             <!--je crée mes filtres de recherche-->
             <div>
-                
                 <div class="cases">
                     <div class="elementfiltre">
-                        <div>Filtres</div>
+                        <div class="ElementFiltre"> Filtres </div>
                     </div>
                     <div class="element1" class="economique">
                         <div class="iconeeco">
@@ -95,7 +95,7 @@
             <!--je crée ma ligne d'information-->
             <div class="info">
                 <div class="iconeinfo">
-                    <i class= "fas fa-info-circle"></i>
+                    <i class="fas fa-info"></i>
                 </div>
                 <div class="infoline">
                     plus de 500 logements sont disponibles dans cette ville
@@ -105,12 +105,11 @@
             <!--je crée la séction pour hébérgement à Marseille qui comprend deux grand divs-->
             <div class="bloc1" id="ancre_heb">
                 <section class="hebergement" id="mon_hebergement">
-                    <div class="categorie1">
-                        <div class="descriptif">
-                            <h5>Hébérgement à Marseille</h5>
-                        </div>
-                        <!--je crée mon prémier grand div pour la premiére rangé de chambre-->
+                    <div class="categorie1">   
                         <div class="chambre1">
+                            <div class="descriptif">
+                                <h5>Hébérgement à Marseille</h5>
+                            </div>
                             <a href="#">
                                 <div class="cadre1">
                                     <div><img class="imagechamb" src="images/hebergements/3_medium/marcus-loke-WQJvWU_HZFo-unsplash.jpg"
@@ -161,10 +160,7 @@
                                         <div class="etoilenoncolor"><i class="fas fa-star"></i></div>
                                     </div>
                                 </div>
-                            </a>                   
-                        </div>
-                        <!--je crée mon second grand div pour la deuxiéme rangée de chambre-->
-                        <div class="chambre2">
+                            </a>
                             <a href="#">
                                 <div class="cadre1">
                                     <div class="imagechamb1">
@@ -223,7 +219,7 @@
                                         <div class="etoilecolor"><i class="fas fa-star"></i></div>
                                     </div>
                                 </div>
-                            </a>
+                            </a>                   
                         </div>
                         <div class="afficherplus">
                             <p>
@@ -344,9 +340,9 @@
                         <div class="cadre4">
                             <img class="imagelong" src="images/activites/3_medium/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg" 
                                alt="photo du port"> 
-                            <p>
-                                vieux port
-                            </p>  
+                            <div class="PlaceName">
+                               <strong>vieux port</strong> 
+                            </div>  
                         </div>
                     </a>
                     <div>
@@ -354,18 +350,18 @@
                             <div class="cadre4">
                                 <img class="imagecarre" src="images/activites/3_medium/paul-hermann-QFTrLdQIRhI-unsplash.jpg" 
                                     alt="fort de pomégues">
-                                <p>
-                                    fort de promégues
-                                </p>
+                                <div class="PlaceName">
+                                    <strong>fort de promégues</strong>
+                                </div>
                             </div>
                         </a>
                         <a href="#">
                             <div class="cadre4">
                                 <img class="imagecarre" src="images/activites/3_medium/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg" 
                                 alt="îles du frioul">
-                                <p>
-                                    îles du Frioul
-                                </p>
+                                <div class="PlaceName">
+                                    <strong>îles du Frioul</strong>
+                                </div> 
                             </div>
                         </a>
                     </div>
@@ -373,9 +369,9 @@
                         <div class="cadre4">
                             <img class="imagelong" src="images/activites/3_medium/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg" 
                                 alt="calanques">
-                            <p>
-                                Parc national des Calanques
-                            </p>
+                                <div class="PlaceName">
+                                    <strong>Parc National des Calanques</strong>
+                                </div>
                         </div>
                     </a>     
                     <div>
@@ -384,17 +380,20 @@
                                 <div>
                                     <img class="imagecarre" src="images/activites/3_medium/florian-wehde-xW9e8gdotxI-unsplash.jpg" 
                                         alt="notre dame de la Garde">
+                                        <div class="PlaceName">
+                                            <strong>Notre-Dame-de-la-Garde</strong>
+                                        </div>
                                 </div>
-                                <p>Notre-Dame-de-la-Garde</p>
+                               
                             </div>
                         </a>
                         <a href="#">
                             <div class="cadre4">
                                 <img class="imagecarre" src="images/activites/3_medium/lena-paulin-wH2-EJoDcV0-unsplash.jpg" 
                                  alt="Parc longchamps">
-                                <p>
-                                    Parc Longchamps
-                                </p>
+                                 <div class="PlaceName">
+                                    <strong>Parc longchamps</strong>
+                                </div>
                             </div>
                         </a>
                     </div> 

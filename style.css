@@ -5,33 +5,50 @@ body{
 }
     /* CSS de la partie navbar*/
   
-   
-.header-nav{
-        
+.mon_site{
+    height: 100%;
+    overflow: hidden;
+}   
+.header-nav{    
     flex-wrap: wrap;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    max-width: 80%;  
+    max-width: 100%;  
 }
 .logo{
-    width: 50%;
+    width: 70%;
 }
+
 .heb{
     border-bottom: solid;
-        
+    border-color:#0065FC;
+    color:#0065FC ;
+    padding-right: 50%;
+    padding-left: 30px;       
+}
+.HebBorder{
+    width: 120px;
 }
 .act{
     border-bottom: solid;
+    
+    padding-left: 110px;
+    padding-right: 30px;
+  
+    
+    
 }
-.motmob{
-    font-size: 25px;
+
+.motbienvenu{
+    font-size: 35px;
     justify-content: center;
     margin-left: 8px;
 }
    
 .motdaccueil{
     margin-left: 8px;
+    
 }
  
    
@@ -39,297 +56,302 @@ body{
 .element1{
     margin-left:3px; 
 }   
-    .formrecherche{
-        display: flex;
-        /*margin-left: 8px;*/
-        max-width: 80%;
-        margin-bottom: 6px;
+.formrecherche{
+    display: flex;
+     /*margin-left: 8px;*/
+    max-width: 80%;
+    margin-bottom: 6px;
 
-    }
-    #uname{
-        text-align: center;
-        border: none;
-        border-top: solid;
-        border-bottom: solid;
-        border-color:#F2F2F2 ;
-        height: 30px;
-    }
-    .iconemap{
-        padding: 12px;
-        border-radius: 10px 0px 0px 10px;
-        background-color:#F2F2F2 ;
-        font-size: 10px;
-        padding-bottom: 2px; 
+}
+#Marseille{
+    text-align: center;
+    border: none;
+    border-top: solid;
+    border-bottom: solid;
+    border-color:#F2F2F2 ;
+    height: 30px;      
+}
+input::placeholder {
+    color: black;
+
+}
+.iconemap{
+    padding: 12px;
+    border-radius: 10px 0px 0px 10px;
+    background-color:#F2F2F2 ;
+    font-size: 10px;
+    padding-bottom: 2px; 
          
-    }
-    .iconerecherche{
-        padding: 12px;
-        border-radius: 4px 4px 4px 4px;
-        background-color:#0065FC ;
-        font-size: 10px;
-        padding-bottom: 2px; 
-        color: white; 
-    }
+}
+.iconerecherche{
+    padding: 12px;
+    border-radius: 4px 4px 4px 4px;
+    background-color:#0065FC ;
+    font-size: 10px;
+    padding-bottom: 2px; 
+    color: white; 
+}
     
-    .buttonrecherche{
-        display: none;
-    }
-    #conteneur1{
-        margin-top: 20px;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-around;
-        margin-bottom: 20px;
-        max-width: 80%;
-    }
-    .element1{
-        display: flex;
-        max-width: 80%;   
-    }
-    .iconeinfo{
-        text-decoration: white;
-    }
-    .info{
-        display: flex;
-        margin-bottom: 20px;
-        margin-left: 8px;
-    }
-    .infoline{
-        font-size: 14px;
-    }
+.buttonrecherche{
+    display: none;
+}
+#conteneur1{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-bottom: 20px;
+    max-width: 80%;
+}
+.element1{
+    display: flex;
+    max-width: 80%;   
+}
+.iconeinfo{
+  display: inline-block;
+  border-radius: 60%;
+  box-shadow: 0px 0px 1px black;
+  padding: 2px;
+  color: #0065FC;
+  font-size: 10px;
+  margin-right: 4px; 
+  width: 16px; 
+  height: 16px;
+  text-align: center;
+}
+.info{
+    display: flex;
+    margin-bottom: 20px;
+    margin-left: 8px;
+}
+.infoline{
+    font-size: 14px;
+}
     
     /* CSS de la partie filtre*/
-    .cases{
-        display: flex;
-        flex-wrap: wrap;
-        max-width: 100%;
+.ElementFiltre{
+    font-weight: bold;
+}
+.cases{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 100%;
         
-     }
-    .economique{
-        border: none;
-        position: relative;
-        display: flex;
-        margin-bottom: 10px;
+}
+.economique{
+    border: none;
+    position: relative;
+    display: flex;
+    margin-bottom: 10px;
       
-    }
-    #Economique{
-        width: 120px;
-        text-align: center; 
-        background-color: white;
-        border-radius: 20px 20px 20px 20px;
-        padding: 12px;
-        margin-right: 14px;
-        margin-left: 6px;
-
-       
+}
+#Economique{
+    width: 120px;
+    text-align: center; 
+    background-color: white;
+    border-radius: 20px 20px 20px 20px;
+    padding: 12px;
+    margin-right: 14px;
+    margin-left: 6px;    
+}
+.iconeeco{
+    position: absolute;
+    width: 26px;
+    height: 26px;
+    padding: 8px;
+    border-radius: 60%;
+    text-align: center;
+    background-color:#DEEBFF; 
+    margin-right: 4px; 
+    color: #0065FC ;
+}
+.famille{
+    border: none;
+    position: relative;
+    display: flex;
+    margin-bottom: 10px;
+}
+#Familial{
+    width: 100px;
+    text-align: center; 
+    background-color: white;
+    border-radius: 20px 20px 20px 20px;
+    padding: 12px;
+    margin-right: 14px;
+    margin-left: 6px;
         
-    }
-    .iconeeco{
-        position: absolute;
-        width: 26px;
-        height: 26px;
-        padding: 8px;
-        border-radius: 60%;
-        text-align: center;
-        background-color:#DEEBFF; 
-        margin-right: 4px; 
-        color: #0065FC ;
-     }
-     .famille{
-        border: none;
-        position: relative;
-        display: flex;
-        margin-bottom: 10px;
-    }
-    #Familial{
-        width: 100px;
-        text-align: center; 
-        background-color: white;
-        border-radius: 20px 20px 20px 20px;
-        padding: 12px;
-        margin-right: 14px;
-        margin-left: 6px;
-        
-    }
-    .iconefamille{
-        position: absolute;
-        width: 26px;
-        height: 26px;
-        padding: 8px;
-        border-radius: 60%;
-        text-align: center;
-        background-color:#DEEBFF; 
-        margin-right: 4px;
-        color: #0065FC; 
-     }
+}
+.iconefamille{
+    position: absolute;
+    width: 26px;
+    height: 26px;
+    padding: 8px;
+    border-radius: 60%;
+    text-align: center;
+    background-color:#DEEBFF; 
+    margin-right: 4px;
+    color: #0065FC; 
+}
     
-     .couple{
-        border: none;
-        position: relative;
-        display: flex;
-        margin-bottom: 10px;
-    }
-    #Romantique{
-        width: 160px;
-        text-align: center; 
-        background-color: white;
-        border-radius: 20px 20px 20px 20px;
-        padding: 12px;
-        margin-right: 14px;
-        margin-left: 6px;
+.couple{
+    border: none;
+    position: relative;
+    display: flex;
+    margin-bottom: 10px;
+}
+#Romantique{
+    width: 160px;
+    text-align: center; 
+    background-color: white;
+    border-radius: 20px 20px 20px 20px;
+    padding: 12px;
+    margin-right: 14px;
+    margin-left: 6px;
         
-    }
-    .iconecouple{
-        position: absolute;
-        width: 26px;
-        height: 26px;
-        padding: 8px;
-        border-radius: 60%;
-        text-align: center;
-        background-color:#DEEBFF; 
-        margin-right: 4px;
-        color: #0065FC; 
-     }
-     .chien{
-        border: none;
-        position: relative;
-        display: flex;
-        margin-bottom: 10px;
-    }
-    #animaux{
-        width: 180px;
-        text-align: center; 
-        background-color: white;
-        border-radius: 20px 20px 20px 20px;
-        padding: 12px;
-        /*margin-right: 14px;*/
-        margin-left: 6px;
-        
-    }
-    .iconechien{
-        position: absolute;
-        width: 26px;
-        height: 26px;
-        padding: 8px;
-        border-radius: 60%;
-        text-align: center;
-        background-color:#DEEBFF; 
-        margin-right: 4px; 
-        color: #0065FC;
-     }
+}
+.iconecouple{
+    position: absolute;
+    width: 26px;
+    height: 26px;
+    padding: 8px;
+    border-radius: 60%;
+    text-align: center;
+    background-color:#DEEBFF; 
+    margin-right: 4px;
+    color: #0065FC; 
+}
+.chien{
+    border: none;
+    position: relative;
+    display: flex;
+    margin-bottom: 10px;
+}
+#animaux{
+    width: 180px;
+    text-align: center; 
+    background-color: white;
+    border-radius: 20px 20px 20px 20px;
+    padding: 12px;
+    /*margin-right: 14px;*/
+    margin-left: 6px;
+   
+}
+.iconechien{
+    position: absolute;
+    width: 26px;
+    height: 26px;
+    padding: 8px;
+    border-radius: 60%;
+    text-align: center;
+    background-color:#DEEBFF; 
+    margin-right: 4px; 
+    color: #0065FC;
+}
                
-    /* partie chambre*/
-    .bloc1{
-        display: flex;
-        flex-direction: column-reverse;
+/* partie chambre*/
+.bloc1{
+    display: flex;
+    flex-direction: column-reverse;
+    max-width: 95%;
 
-    }
-    .cadre1{
-        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-        border-radius: 14px;
-        height: 160px;
-        max-width: 90%;
-        margin-bottom: 20px;
-       
-    }
-    .cadre1 img{
-        border-radius: 14px 14px 0px 0px;
-        width: 25%;
-        min-width: 98%;
-        
-        
-        }
+}
+.descriptif{
+    width: 100%;
+    padding-left: 1em;
     
-    .imagechamb{
-        height: 100px;
-        max-width: 80%;
-        margin: 5px;
-        
-          
-    }
+}
+.cadre1{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    border-radius: 14px;
+    height: 160px;
+    max-width: 100%;
+    margin-bottom: 20px;
+}
+.cadre1 img{
+    border-radius: 14px 14px 0px 0px;
+    width: 25%;
+    min-width: 98%;
+    background-color: white;
+}   
+.imagechamb{
+    height: 100px;
+    max-width: 80%;
+    margin: 5px;    
+}
+a{ 
+    text-decoration:none; 
+    color: black;
+} 
+.name{
+    font-size: 10px;
+    margin-left: 6px;
+}
+.price{
+    font-size: 10px;
+    margin-left: 6px;
+}
+.etoilechamb{
+    display: flex;
+    font-size: 10px;
+    margin-left: 6px;
+}
+.etoilecolor{
+    color: #0065FC;
+}
+.etoilenoncolor{
+    color: #F2F2F2;
+}
+
+    
+/* css des chambres populaires*/
+.categorie2{
+    background-color: #F2F2F2;
+    max-width: 100%;
+}
+.imagechambpop{
+    height: 100px;
+    width: 125px;
+    margin: 5px; 
+}
+.iconepop{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between; 
+    margin-right: 2px;
+}
+.titrepop{
+    margin-left: 10px;
+}
+.courbe{
+    margin-right: 12px;
+}
    
-    a
-    { 
-        text-decoration:none; 
-        color: black;
- 
-    } 
-    .name{
-            font-size: 10px;
-            margin-left: 6px;
-    
-    }
-        .price{
-        font-size: 10px;
-        margin-left: 6px;
-    }
-        .etoilechamb{
-            display: flex;
-            font-size: 10px;
-            margin-left: 6px;
-    }
-    .etoilecolor{
-        color: #0065FC;
-    }
-    .etoilenoncolor{
-        color: #F2F2F2;
-    }
-
-    
-
-    /* css des chambres populaires*/
-    .categorie2{
-        background-color: #F2F2F2;
-        max-width: 100%;
-           
-    }
-    .imagechambpop{
-        height: 100px;
-        width: 125px;
-        margin: 5px; 
-    }
-    .iconepop{
-        display: flex;
-        justify-content: center;
-        justify-content: space-between; 
-        margin-right: 2px;
-    }
-    .titrepop{
-        margin-left: 10px;
-    }
-    .courbe{
-        margin-right: 12px;
-    }
-   
-    .cadre3{
-        height: 110px;
-        max-width: 90%;
-        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-        border-radius: 14px;
-        background-color: white;
-        display: flex;
-        margin-top: 20px;
-        margin-left: 10px;
-        margin-bottom: 20px;
-        
-    } 
-    .cadre3 img{
-        border-radius: 14px 0px 0px 14px;   
-        margin-right: 20px;
-       
-     }
-    .paragraphe{
-        font-size: 10px;
-     
-    }
-    .etoilechambpop{
-        display: flex;
-    }
+.cadre3{
+    height: 110px;
+    max-width: 90%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    border-radius: 14px;
+    background-color: white;
+    display: flex;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+} 
+.cadre3 img{
+    border-radius: 14px 0px 0px 14px;   
+    margin-right: 20px;
+}
+.paragraphe{
+    font-size: 10px;
+}
+.etoilechambpop{
+    display: flex;
+}
     /* css de la partie activité*/
 .categorie3{
     border-radius: 10px;
     justify-content: space-between;
-    max-width: 90%;
+    max-width: 100%;
         
 }
 .activite{
@@ -348,13 +370,16 @@ body{
 }
 .cadre4 img{
     border-radius: 14px 14px 0px 0px;
-    min-width: 80%;      
+    min-width: 80%;
+    
+          
 }
-.cadre4 p{
-    text-align: center;
-    font-size: 10px;
+.PlaceName {
+    font-size: 12px;
+    padding: 1em;
+    
        
-} 
+ }
      
 .imagelong{
     height: 150px;
@@ -369,33 +394,68 @@ body{
 .footer{
     background-color: #F2F2F2;
     max-width: 100%;
-    }
+}
 
     /*CSS de la partie desktop*/
 
 @media screen and (min-width: 767px){
-.act{
+.mon_site{
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+    .act{
     border-bottom: none;
 }
 .heb{
     border-bottom: none;
     border-top: solid;
-    border-color:#0065FC ;
+    border-color: #0065FC;
+    color: #0065FC;
+    padding-top: 43px;
+    
 }
-    .header-nav{
+.logo{
+    max-width: 50%;
+}
+.ins{
+    color: #0065FC;
+    margin-right: 20px;
+}
+.header-nav{
     margin-left: 3em;
+    margin-top: 30px;    
+}
+
+.element:nth-child(2)
+{
+    order: 1;
 }
 .motbienvenu{
-    margin-left: 3em;
+    margin-left: 2em;
+    font-size: 20px;
 }
 .motdaccueil{
     margin-left: 3em;
 }
-    .formrecherche{
+.formrecherche{
     margin-bottom: 12px;
     margin-left: 3em;
 }
-    .info{
+.iconerecherche{
+    display: none;
+}
+.buttonrecherche{
+    display: flex;
+    padding: 8px;
+    border-radius: 0px 12px 12px 0px;
+    background-color:#0065FC ;
+    font-size: 5;
+    padding-bottom: 8px;
+    color: white;    
+}
+
+.info{
     margin-left: 4em;
 }
 .cases{
@@ -404,25 +464,40 @@ body{
     margin-bottom: 12px;
     align-items: center;
 }
+.economique :hover{
+    background-color: #0065FC  ;  
+}
 
+/* Css de la partie chambre*/
 
-    .bloc1{
+.bloc1{
     display: flex ;
     flex-direction: row;
     justify-content: space-around;
+    max-width: 100%;
+    margin: 1em;
+
 }
 .hebergement{
     background-color: #F2F2F2;
     border-radius: 10px;
-    padding-left: 20px;      
+    max-width:70% ;      
 }
 .cadre1{    
-    width: 250px;
-    
+  width: 190px;
+  
 }
-    
+
+
+.imagechamb{
+    width: 10px;
+}    
 .chambre1{
     display: flex;
+    max-width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
          
 }
 .chambre2{
@@ -431,18 +506,21 @@ body{
 .categorie2{
     border-radius: 10px;
 } 
+/* Css de la partie activité*/
 .categorie3{
-    min-width: 100%;
+    max-width: 100%;
+    
 }
 .activite{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-around;  
+    justify-content: space-around; 
+    margin-left: 1em;  
       
 }
 .titreactivite{
-    margin-left: 4em;
+ margin-left: 2em; 
 }
 .imagelong{
     height: 350px;
@@ -450,8 +528,8 @@ body{
         
 }
 .imagecarre{
-    height: 150px;
-    width: 200px;        
+    height: 140px;
+    width: 250px;        
 }
 
 .footer{
@@ -459,3 +537,90 @@ body{
     justify-content: space-around;
 }
      
+/* CSS da la version tablette*/
+@media screen and (max-width: 768px){
+.header-nav{
+    flex-wrap: nowrap;
+}
+.cases{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 80%;
+
+        
+     }
+#Familial{
+    width: 180px;
+} 
+#Economique{
+    width: 180px;
+}
+.bloc1{
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+    max-width: 95%;
+}
+.categorie1{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 95%;
+} 
+.hebergement{
+   max-width: 100%;
+}
+.cadre1{
+    margin-right: 0px;
+    width: 230px;    
+}
+
+.cadre3{
+    height: 160px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    border-radius: 14px;
+    background-color: white;
+    display: flex;
+
+    /*flex-direction: column;
+    justify-content: space-between;*/
+
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    
+} 
+.categorie2{
+    background-color: #F2F2F2;
+    max-width: 100%;
+    margin-bottom: 20px;
+       
+}
+.chambrepop{
+    display: flex;
+    flex-direction: row;
+}
+.imagechambpop{
+    height: 150px;
+}
+.paragraphe{
+    margin-top: 30px;
+}
+
+
+.activite{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 93%;
+    margin-left: 2em;
+    
+}
+
+.imagecarre{
+    width: 350px;
+} 
+.imagelong{
+    width: 300px;
+    
+} 
+}
